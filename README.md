@@ -38,3 +38,23 @@ To have your changes be updated to zeetech.ml, you'd need to commit and push the
 8. If merging fails, then you have conflicting changes! discuss with the team before proceeding.
 
 It is recommended to pull the repo before you start editing changes to avoid changes conflict. Especially if you know that someone else had been working on the repo.
+
+# Error Handling
+
+## Project error : sass compiler is invalid
+
+SASS is a preprocessor for css, like PHP to HTML. The template we are using are generated from some .sass files, we don't need them anymore as we won't be tinkering too much with the css. So disable them from the project
+
+1. Right Click Project > Properties > CSS Preprocessor
+2. Untick "Compile SASS on save"
+3. Done
+
+## On Run, cannot open 'http://localhost/zeetech-publicweb/index.html'
+
+By default, Netbeans try to run your project on a local web server. If for some reason, netbeans didnt deploy its own web server, then you'll get this error. To fix this:
+
+1. Download & install XAMPP
+2. Start Apache Service
+3. Try running the project again
+
+You can also configure Netbeans to run your project directly from your local directories, but please don't do this as the changes will be updated to this repo, and other members of team consequently, as well.
