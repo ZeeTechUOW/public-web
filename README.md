@@ -3,6 +3,11 @@
 To contribute, you can use Netbeans or any other HTML/CSS/Javascript editor that supports Git versioning system. It is recommended to use Netbeans, so here's the URL:
 https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=all
 
+Links to website  :
+https://zeetech.ml
+https://zeetech.cu.cc
+https://zeetechuow.github.io/public-web
+
 # Connecting to Github
 
 If you're using Netbeans, here's the steps to connect your local machine to this repo.
