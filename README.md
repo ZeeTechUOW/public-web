@@ -24,8 +24,9 @@ To have your changes be updated to zeetech.ml, you'd need to commit and push the
 1. If you added more files(images, js, etc) the project you want to upload to the repo, select all the added files or directories in the Projects tab and right click > Git > Add
 2. Right click edited files and select Git > Commit
 3. Enter a commit message if necessary, and commit
-4. Then, upload the changes by right click the edited files > Git > Push
+4. Then, upload the changes by right click the edited files > Git > Remote > Push
 5. Enter your and the repo credentials, select the origin/master branch, and push
-
-
+6. If push fails for whatever reasons, you might need to pull your project again to sync them
+7. Select merge when prompted, and then try to push again
+8. If merging fails, then you have conflicting changes! discuss with the team before proceeding.
 
