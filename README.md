@@ -18,7 +18,7 @@ If you're using Netbeans, here's the steps to connect your project in your local
 
 # Committing and Pushing
 
-You can edit them htmls and view your changes locally on your machine by openning index.html on your browser of choice.
+You can edit them htmls and view your changes locally on your machine by opening index.html on your browser of choice.
 To have your changes be updated to zeetech.ml, you'd need to commit and push the changes. Here's the steps:
 
 1. If you added more files(images, js, etc) the project you want to upload to the repo, select all the added files or directories in the Projects tab and right click > Git > Add
