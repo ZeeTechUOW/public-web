@@ -57,4 +57,4 @@ By default, Netbeans try to run your project on a local web server. If for some 
 2. Start Apache Service
 3. Try running the project again
 
-You can also configure Netbeans to run your project directly from your local directories, but please don't do this as the changes will be updated to this repo, and other members of team consequently, as well.
+You can also configure Netbeans to run your project directly from your local directories, but please don't do this as the changes will be updated to this repo, and other members of the team consequently, as well.
